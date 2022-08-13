@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvavitem"
+        android:layout_width="152dp"
+        android:layout_height="185dp"
+        android:background="@android:color/transparent"
+        app:cardBackgroundColor="@color/white"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/fv_i1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/fv_i1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="@string/details" />
+
+            <ImageView
+                android:id="@+id/videoImg"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/image_shadow"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="@string/details" />
+
+            <ImageView
+                android:id="@+id/play_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/play_circle"
+                android:layout_marginStart="10dp"
+                app:layout_constraintBottom_toBottomOf="@+id/duration"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/duration"
+                android:contentDescription="@string/details" />
+
+            <TextView
+                android:id="@+id/duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="13dp"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/r_regular"
+                android:text="@string/_05_56"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/play_icon" />
+
+            <ImageView
+                android:id="@+id/menu"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:contentDescription="@string/details"
+                android:src="@drawable/charm_menu"
+                android:layout_marginEnd="7dp"
+                app:layout_constraintBottom_toBottomOf="@+id/duration"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/duration" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

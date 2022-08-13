@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/av_list_bg"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp">
+
+        <ImageView
+            android:id="@+id/videoImg"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/av_e1"
+            android:layout_marginStart="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/details" />
+
+        <TextView
+            android:id="@+id/videoName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/r_bold"
+            android:layout_marginEnd="10dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="A-Rod I Still Having A Ball After All"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/menu"
+            app:layout_constraintStart_toEndOf="@+id/videoImg"
+            app:layout_constraintTop_toTopOf="@+id/videoImg" />
+
+        <TextView
+            android:id="@+id/duration"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/r_regular"
+            android:text="03:15"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/videoName"
+            app:layout_constraintTop_toBottomOf="@+id/videoName" />
+
+        <TextView
+            android:id="@+id/line"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/line"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/duration"
+            app:layout_constraintStart_toEndOf="@+id/duration"
+            app:layout_constraintTop_toTopOf="@+id/duration" />
+
+        <TextView
+            android:id="@+id/size"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/r_regular"
+            android:text="5 MB"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginStart="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/line"
+            app:layout_constraintStart_toEndOf="@+id/line"
+            app:layout_constraintTop_toTopOf="@+id/line" />
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:contentDescription="@string/details"
+            android:src="@drawable/charm_menu_b"
+            android:layout_marginEnd="15dp"
+            app:layout_constraintBottom_toBottomOf="@+id/videoImg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/videoImg" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

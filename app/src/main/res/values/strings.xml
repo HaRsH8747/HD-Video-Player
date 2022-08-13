@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">HD Video Player</string>
+    <string name="search">Search</string>
+    <string name="video_player">Video Player</string>
+    <string name="star">Star</string>
+    <string name="favourites">Favourites</string>
+    <string name="see_all">See All</string>
+    <string name="all_videos">All Videos</string>
+    <string name="_05_56">05:56</string>
+    <string name="details">Details</string>
+    <string name="line">|</string>
+    <string name="lock">Lock</string>
+    <string name="_0">0</string>
+    <string name="rename">Rename</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+    <string name="about">About</string>
+    <string name="audio_track">Audio Track</string>
+    <string name="subtitles">Subtitles</string>
+    <string name="speed">Speed</string>
+    <string name="sleep_timer">Sleep Timer</string>
+    <string name="pip_mode">PIP Mode</string>
+    <string name="apply_to_all">Apply to all</string>
+    <string name="back_button">Back Button</string>
+    <string name="video_name">Video Name</string>
+    <string name="play_button">Play Button</string>
+    <string name="orientation">Orientation</string>
+    <string name="repeat_button">Repeat Button</string>
+    <string name="previous_button">Previous Button</string>
+    <string name="next_button">Next Button</string>
+    <string name="fullscreen_button">Fullscreen Button</string>
+    <string name="duration">Duration</string>
+    <string name="semi_colon">:</string>
+    <string name="loading">Loading</string>
+    <string name="view_type">View Type</string>
+    <string name="tip_play_video_and_click_on_10084_to_add_it_into_favourites">Tip: Play Video And Click On ❤ To Add It Into Favourites.</string>
+</resources>

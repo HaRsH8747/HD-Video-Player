@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/SHARAD SALODIYA/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/drawable-v24/image_shadow.xml" value="0.1385" />
+        <entry key="..\:/Users/SHARAD SALODIYA/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/drawable/av_list_bg.xml" value="0.1385" />
+        <entry key="..\:/Users/SHARAD SALODIYA/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/drawable/custom_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Users/SHARAD SALODIYA/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/drawable/favourites_item.xml" value="0.1" />
+        <entry key="..\:/Users/SHARAD SALODIYA/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/drawable/image_shadow.xml" value="0.1385" />
+        <entry key="..\:/Users/SHARAD SALODIYA/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/drawable/splashscreen_bg.xml" value="0.1" />
+        <entry key="..\:/Users/SHARAD SALODIYA/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/layout-v22/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/SHARAD SALODIYA/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/SHARAD SALODIYA/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/layout/av_gridv_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/SHARAD SALODIYA/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/layout/av_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/SHARAD SALODIYA/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/layout/av_listv_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/SHARAD SALODIYA/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/layout/favourites_item.xml" value="0.264" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/drawable/audio_track_icon.xml" value="0.1565" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/drawable/back_icon.xml" value="0.1565" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/drawable/backward_icon.xml" value="0.1565" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/drawable/brightness_icon.xml" value="0.1565" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/drawable/fullscreen_exit_icon.xml" value="0.1565" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/drawable/heart.xml" value="0.176" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/drawable/heart_outline.xml" value="0.176" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/drawable/ic_back_arrow.xml" value="0.176" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/drawable/lock_open_icon.xml" value="0.1565" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/drawable/menu_icon.xml" value="0.1565" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/drawable/minus_icon.xml" value="0.1565" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/drawable/pause_icon.xml" value="0.1565" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/drawable/play_icon.xml" value="0.1565" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/drawable/rename_icon.xml" value="0.1565" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/drawable/volume_icon.xml" value="0.1565" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/layout/activity_all_video.xml" value="0.264" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/layout/activity_favourite.xml" value="0.25" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/layout/activity_main.xml" value="0.24615384615384617" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/layout/activity_video.xml" value="0.25" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/layout/activity_video_player.xml" value="0.25" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/layout/av_gridv_item.xml" value="0.25" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/layout/av_listv_item.xml" value="0.25" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/layout/av_main_item.xml" value="0.4" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/layout/custom_control_view.xml" value="0.25" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/layout/details_view.xml" value="0.25" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/layout/fv_item.xml" value="0.264" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/layout/fv_item_all.xml" value="0.25" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/layout/rename_field.xml" value="0.25" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/layout/speed_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/layout/video_more_features.xml" value="0.25" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/layout/video_more_features2.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/harshmoradiya/AndroidStudioProjects/HDVideoPlayer/app/src/main/res/menu/video_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
