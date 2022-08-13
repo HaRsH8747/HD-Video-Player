@@ -1,6 +1,7 @@
 package com.hdvideoplayer
 
 import android.Manifest
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.net.Uri
 import android.os.Build
@@ -68,25 +69,25 @@ class VideoActivity : AppCompatActivity(), EasyPermissions.PermissionCallbacks {
         if (EasyPermissions.hasPermissions(this, Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
             hasWritePermissions = true
         }
-        if (hasWritePermissions){
-            videoList = getAllVideos(this)
-            Log.d("CLEAR","list: ${videoList.size}")
-            binding.rvAllVideos.setItemViewCacheSize(10)
-            adapter = VideoAdapter(this, videoList)
-            binding.rvAllVideos.adapter = adapter
-
-            favouriteVideos = checkPlaylist(favouriteVideos)
-            if (favouriteVideos.isEmpty()){
-                binding.tvFavInfo.visibility = View.VISIBLE
-            }else{
-                binding.tvFavInfo.visibility = View.GONE
-                binding.rvFavourites.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
-                favouriteAdapter = FavouriteAdapter(this, favouriteVideos)
-                binding.rvFavourites.adapter = favouriteAdapter
-            }
-        }else{
-            requestPermissions()
-        }
+//        if (hasWritePermissions){
+//            videoList = getAllVideos(this)
+//            Log.d("CLEAR","list: ${videoList.size}")
+//            binding.rvAllVideos.setItemViewCacheSize(10)
+//            adapter = VideoAdapter(this, videoList)
+//            binding.rvAllVideos.adapter = adapter
+//
+//            favouriteVideos = checkPlaylist(favouriteVideos)
+//            if (favouriteVideos.isEmpty()){
+//                binding.tvFavInfo.visibility = View.VISIBLE
+//            }else{
+//                binding.tvFavInfo.visibility = View.GONE
+//                binding.rvFavourites.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
+//                favouriteAdapter = FavouriteAdapter(this, favouriteVideos)
+//                binding.rvFavourites.adapter = favouriteAdapter
+//            }
+//        }else{
+//            requestPermissions()
+//        }
         binding.tvAllFavourites.setOnClickListener {
             val intent = Intent(this, FavouriteActivity::class.java)
             startActivity(intent)
@@ -117,6 +118,7 @@ class VideoActivity : AppCompatActivity(), EasyPermissions.PermissionCallbacks {
         }
     }
 
+    @SuppressLint("NotifyDataSetChanged")
     override fun onResume() {
         super.onResume()
         Log.d("CLEAR","fav: ${favouriteVideos.size}")
@@ -135,12 +137,15 @@ class VideoActivity : AppCompatActivity(), EasyPermissions.PermissionCallbacks {
             favouriteVideos = checkPlaylist(favouriteVideos)
             if (favouriteVideos.isEmpty()){
                 binding.tvFavInfo.visibility = View.VISIBLE
+                binding.rvFavourites.visibility = View.INVISIBLE
             }else{
+                binding.rvFavourites.visibility = View.VISIBLE
                 binding.tvFavInfo.visibility = View.GONE
                 binding.rvFavourites.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
                 favouriteAdapter = FavouriteAdapter(this, favouriteVideos)
                 binding.rvFavourites.adapter = favouriteAdapter
             }
+            binding.rvFavourites.adapter?.notifyDataSetChanged()
         }else{
             requestPermissions()
         }

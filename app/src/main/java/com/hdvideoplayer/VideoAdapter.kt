@@ -74,7 +74,6 @@ class VideoAdapter(
             .into(holder.image)
         holder.root.setOnClickListener {
             VideoPlayerActivity.videoPosition = position
-
             when {
                 videoList[position].id == VideoPlayerActivity.nowPlayingId -> {
                     sendIntent(pos = position, ref = "NowPlaying")
